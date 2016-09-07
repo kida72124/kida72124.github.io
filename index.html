@@ -1,0 +1,1288 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>Hexo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo">
+    
+
+    
+        <link rel="alternate" href="/" title="Hexo" type="application/atom+xml" />
+    
+
+    
+
+    <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/vendor/open-sans/styles.css">
+    <link rel="stylesheet" href="/vendor/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/vendor/jquery/2.1.3/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/vendor/lightgallery/css/lightgallery.min.css">
+    
+    
+    
+    
+    
+
+
+</head>
+
+<body>
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/" id="logo">
+                <i class="logo"></i>
+                <span class="site-title">Hexo</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="/.">Home</a>
+                
+                    <a class="main-nav-link" href="/archives">Archives</a>
+                
+                    <a class="main-nav-link" href="/categories">Categories</a>
+                
+                    <a class="main-nav-link" href="/tags">Tags</a>
+                
+                    <a class="main-nav-link" href="/about">About</a>
+                
+            </nav>
+            
+                
+                <nav id="sub-nav">
+                    <div class="profile" id="profile-nav">
+                        <a id="profile-anchor" href="javascript:;">
+                            <img class="avatar" src="/css/images/avatar.png" />
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                    </div>
+                </nav>
+            
+            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Entradas',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categorias',
+            TAGS: 'Etiquetas',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="/.">Home</a></td>
+                
+                    <td><a class="main-nav-link" href="/archives">Archives</a></td>
+                
+                    <td><a class="main-nav-link" href="/categories">Categories</a></td>
+                
+                    <td><a class="main-nav-link" href="/tags">Tags</a></td>
+                
+                    <td><a class="main-nav-link" href="/about">About</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+        <div class="outer">
+            
+                
+
+<aside id="profile">
+    <div class="inner profile-inner">
+        <div class="base-info profile-block">
+            <img id="avatar" src="/css/images/avatar.png" />
+            <h2 id="name">PPOffice</h2>
+            <h3 id="title">Web Developer &amp; Designer</h3>
+            <span id="location"><i class="fa fa-map-marker"></i>Harbin, China</span>
+            <a id="follow" target="_blank" href="https://github.com/ppoffice/">SEGUIR</a>
+        </div>
+        <div class="article-info profile-block">
+            <div class="article-info-block">
+                2
+                <span>Entradas</span>
+            </div>
+            <div class="article-info-block">
+                0
+                <span>Etiqueta</span>
+            </div>
+        </div>
+        
+        <div class="profile-block social-links">
+            <table>
+                <tr>
+                    
+                    
+                    <td>
+                        <a href="http://github.com/ppoffice/hexo-theme-icarus" target="_blank" title="github" class=tooltip>
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/" target="_blank" title="twitter" class=tooltip>
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/" target="_blank" title="facebook" class=tooltip>
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/" target="_blank" title="dribbble" class=tooltip>
+                            <i class="fa fa-dribbble"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/" target="_blank" title="rss" class=tooltip>
+                            <i class="fa fa-rss"></i>
+                        </a>
+                    </td>
+                    
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+</aside>
+
+            
+            <section id="main">
+    <article id="post-day-1" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2016/09/07/day-1/">day-1</a>
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2016/09/07/day-1/">
+            <time datetime="2016-09-07T07:22:42.000Z" itemprop="datePublished">2016-09-07</time>
+        </a>
+    </div>
+
+
+                        
+                        
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <table>
+<thead>
+<tr>
+<th>项目</th>
+<th style="text-align:right">价格</th>
+<th style="text-align:center">数量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>计算机</td>
+<td style="text-align:right">$1600</td>
+<td style="text-align:center">5</td>
+</tr>
+<tr>
+<td>手机</td>
+<td style="text-align:right">$12</td>
+<td style="text-align:center">12</td>
+</tr>
+<tr>
+<td>管线</td>
+<td style="text-align:right">$1</td>
+<td style="text-align:center">234</td>
+</tr>
+</tbody>
+</table>
+<h1 id="Test"><a href="#Test" class="headerlink" title="Test"></a>Test</h1><h1 id="各式-Web-前端開發工具整理"><a href="#各式-Web-前端開發工具整理" class="headerlink" title="各式 Web 前端開發工具整理"></a>各式 Web 前端開發工具整理</h1><p>這裡收集了一系列各式各樣與「網頁前端」相關的開發工具、函式庫與參考文件，這些工具僅針對一般桌上型/筆記型電腦的顯示環境為主 (不含平板或手機等行動版網頁相關工具)。</p>
+<h2 id="程式碼編寫工具-Coding-Tools"><a href="#程式碼編寫工具-Coding-Tools" class="headerlink" title="程式碼編寫工具 (Coding Tools)"></a>程式碼編寫工具 (Coding Tools)</h2><h6 id="工作流程-建置-組合-Workflow-Builds-Assemblers"><a href="#工作流程-建置-組合-Workflow-Builds-Assemblers" class="headerlink" title="工作流程/建置/組合 (Workflow/Builds/Assemblers)"></a>工作流程/建置/組合 (Workflow/Builds/Assemblers)</h6><ul>
+<li><a href="http://walmartlabs.github.io/lumbar/" target="_blank" rel="external">lumbar</a></li>
+<li><a href="http://brunch.io/" target="_blank" rel="external">brunch</a>Handlebars</li>
+<li><a href="http://gruntjs.com/" target="_blank" rel="external">grunt</a><ul>
+<li><a href="https://github.com/testdouble/lineman" target="_blank" rel="external">lineman</a></li>
+<li><a href="http://yeoman.io/" target="_blank" rel="external">yeoman</a></li>
+<li><a href="http://tsvensen.github.io/Takeoff/" target="_blank" rel="external">Takeoff</a></li>
+</ul>
+</li>
+<li><a href="http://mimosajs.com/" target="_blank" rel="external">mimosa</a></li>
+<li><a href="http://incident57.com/codekit/" target="_blank" rel="external">codeKit</a></li>
+<li><a href="http://livereload.com/" target="_blank" rel="external">liveReload</a></li>
+<li><a href="http://javascriptmvc.com/docs.html#!stealjs" target="_blank" rel="external">stealJS</a></li>
+<li><a href="https://github.com/anviljs/anvil.js/" target="_blank" rel="external">anvil.js</a></li>
+<li><a href="http://modulejs.github.io/modjs/" target="_blank" rel="external">modjs</a></li>
+<li><a href="http://indigounited.com/automaton/" target="_blank" rel="external">AUTOMATON</a></li>
+<li><a href="http://fireapp.handlino.com/" target="_blank" rel="external">Fire.app</a></li>
+</ul>
+<hr>
+<h6 id="瀏覽器套件管理員-Browser-Package-Managers-參見-Front-End-Package-Manager-Comparison"><a href="#瀏覽器套件管理員-Browser-Package-Managers-參見-Front-End-Package-Manager-Comparison" class="headerlink" title="瀏覽器套件管理員 (Browser Package Managers) (參見: Front-End Package Manager Comparison)"></a>瀏覽器套件管理員 (Browser Package Managers) (參見: <a href="https://github.com/wilmoore/frontend-packagers" target="_blank" rel="external">Front-End Package Manager Comparison</a>)</h6><ul>
+<li><a href="http://bower.io" target="_blank" rel="external">bower</a></li>
+<li><a href="https://github.com/component/component" target="_blank" rel="external">component</a></li>
+<li><a href="http://ender.jit.su/" target="_blank" rel="external">ender</a></li>
+<li><a href="http://jamjs.org/" target="_blank" rel="external">jam</a></li>
+</ul>
+<hr>
+<h6 id="CSS-基底樣式-樣板"><a href="#CSS-基底樣式-樣板" class="headerlink" title="CSS 基底樣式/樣板"></a>CSS 基底樣式/樣板</h6><ul>
+<li><a href="http://necolas.github.com/normalize.css/" target="_blank" rel="external">normalize.css</a></li>
+</ul>
+<hr>
+<p>######CSS 框架 (參見: <a href="http://responsive.vermilion.com/compare.php" target="_blank" rel="external">框架比較</a> 或 <a href="http://usablica.github.com/front-end-frameworks/compare.html" target="_blank" rel="external">前端 CSS 框架</a>)</p>
+<ul>
+<li><a href="http://foundation.zurb.com/" target="_blank" rel="external">foundation</a></li>
+<li><a href="http://twitter.github.com/bootstrap/" target="_blank" rel="external">bootstrap</a></li>
+<li><a href="http://www.99lime.com/elements/" target="_blank" rel="external">HTML KickStart</a></li>
+<li><a href="http://imperavi.com/kube/" target="_blank" rel="external">kube</a></li>
+<li><a href="http://www.getskeleton.com/" target="_blank" rel="external">skeleton</a></li>
+<li><a href="http://baselinecss.com/" target="_blank" rel="external">baseline</a></li>
+<li><a href="http://gumbyframework.com" target="_blank" rel="external">gumby</a></li>
+<li><a href="http://groundwork.sidereel.com/?url=home" target="_blank" rel="external">Groundwork</a></li>
+<li><a href="http://topcoat.io/" target="_blank" rel="external">topcoat</a></li>
+<li><a href="http://purecss.io/" target="_blank" rel="external">purecss</a></li>
+<li><a href="http://tuktuk.tapquo.com/" target="_blank" rel="external">tuktuk</a></li>
+<li><a href="http://metroui.org.ua/" target="_blank" rel="external">Metro UI CSS</a></li>
+<li><a href="http://workless.ikreativ.com/" target="_blank" rel="external">workless</a></li>
+<li><a href="http://www.99lime.com/" target="_blank" rel="external">99lime</a></li>
+<li><a href="http://susy.oddbird.net/" target="_blank" rel="external">SUSY</a></li>
+</ul>
+<hr>
+<p>######HTML 基底結構/樣板</p>
+<ul>
+<li><a href="http://html5boilerplate.com/" target="_blank" rel="external">HTML5 Boilerplate</a></li>
+<li><a href="http://stuffandnonsense.co.uk/projects/rock-hammer/" target="_blank" rel="external">Rock Hammer</a></li>
+<li><a href="http://html5bones.com/" target="_blank" rel="external">html5bones</a></li>
+<li><a href="http://www.dcodes.net/2/docs/index.html" target="_blank" rel="external">dCodes</a></li>
+</ul>
+<hr>
+<p>######操作 DOM 的相關函式庫 (FYI: dojo, yui, ext, qooxdoo 都有自己的 DOM 工具)</p>
+<ul>
+<li><a href="http://jquery.com/" target="_blank" rel="external">jQuery</a><ul>
+<li><a href="http://jquerypp.com/" target="_blank" rel="external">jQuery++</a></li>
+</ul>
+</li>
+<li><a href="http://zeptojs.com/" target="_blank" rel="external">zepto</a></li>
+<li><a href="http://tirejs.com/" target="_blank" rel="external">tire</a></li>
+<li><a href="http://mootools.net/" target="_blank" rel="external">mooTools</a></li>
+<li><a href="http://www.domassistant.com/" target="_blank" rel="external">DOMAssistant</a></li>
+<li><a href="https://github.com/ender-js/jeesh" target="_blank" rel="external">Enders The Jeesh</a><ul>
+<li><a href="https://github.com/ded/domready" target="_blank" rel="external">domReady</a></li>
+<li><a href="https://github.com/ded/qwery" target="_blank" rel="external">query</a><ul>
+<li><a href="https://github.com/ded/bonzo" target="_blank" rel="external">bonzo</a></li>
+<li><a href="https://github.com/fat/bean" target="_blank" rel="external">bean</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p>######各式 JavaScript 輔助工具/函式庫</p>
+<ul>
+<li><a href="http://lodash.com/" target="_blank" rel="external">lo-dash</a></li>
+<li><a href="http://danieltao.com/lazy.js/" target="_blank" rel="external">lazy.js</a></li>
+<li><a href="http://stringjs.com/" target="_blank" rel="external">string.js</a></li>
+<li><a href="http://www.boilerjs.com/" target="_blank" rel="external">boiler.js</a></li>
+<li><a href="http://underscorejs.org/" target="_blank" rel="external">underscore</a><ul>
+<li><a href="http://epeli.github.io/underscore.string/" target="_blank" rel="external">underscore.string</a></li>
+</ul>
+</li>
+<li><a href="http://sugarjs.com/" target="_blank" rel="external">sugar.js</a></li>
+<li><a href="http://craftjs.org/" target="_blank" rel="external">craft.js</a></li>
+<li><a href="https://github.com/ded/valentine" target="_blank" rel="external">valentine</a></li>
+<li><a href="https://github.com/bestiejs/platform.js" target="_blank" rel="external">platform.js</a></li>
+<li><a href="http://modernizr.com/" target="_blank" rel="external">modernizr</a><ul>
+<li><a href="http://yepnopejs.com/" target="_blank" rel="external">yepnope</a></li>
+</ul>
+</li>
+<li><a href="http://bestiejs.github.io/json3/" target="_blank" rel="external">JSON3</a></li>
+<li><a href="https://github.com/medialize/URI.js" target="_blank" rel="external">uri.js</a></li>
+<li><a href="http://momentjs.com/" target="_blank" rel="external">moment.js</a></li>
+<li><a href="https://github.com/elving/wait" target="_blank" rel="external">wait.js</a></li>
+<li><a href="http://numeraljs.com/" target="_blank" rel="external">Numeral.js</a></li>
+<li><a href="http://josscrowcroft.github.io/accounting.js/" target="_blank" rel="external">accounting.js</a></li>
+<li><a href="https://github.com/rowanmanning/upcast" target="_blank" rel="external">Upcast</a></li>
+<li><a href="http://www.taffydb.com/" target="_blank" rel="external">taffydb</a></li>
+<li><a href="http://communistjs.com/" target="_blank" rel="external">communist</a></li>
+</ul>
+<hr>
+<p>######鍵盤控制相關工具/函式庫</p>
+<ul>
+<li><a href="https://github.com/bitwalker/keys.js" target="_blank" rel="external">keys.js</a></li>
+<li><a href="http://craig.is/killing/mice" target="_blank" rel="external">mousestrap</a></li>
+</ul>
+<hr>
+<p>######事件相關輔助工具/函式庫 (mouse/touch/pointer)</p>
+<ul>
+<li><a href="https://github.com/mozilla/pointer.js" target="_blank" rel="external">pointer.js</a></li>
+<li><a href="http://mwbrooks.github.io/thumbs.js/" target="_blank" rel="external">thumbs.js</a></li>
+<li><a href="https://github.com/EightMedia/hammer.js" target="_blank" rel="external">Hammer.js</a></li>
+<li><a href="https://github.com/mudcube/Event.js" target="_blank" rel="external">Event.js</a></li>
+<li><a href="http://deeptissuejs.com" target="_blank" rel="external">DeepTissue.js</a></li>
+</ul>
+<hr>
+<p>######CSS 關輔助工具/函式庫</p>
+<ul>
+<li><a href="http://leaverou.github.io/prefixfree/" target="_blank" rel="external">-prefix-free</a></li>
+<li><a href="http://csscomb.com" target="_blank" rel="external">CSScomb</a></li>
+</ul>
+<hr>
+<p>######模組與指令碼載入工具/函式庫 (參見: <a href="https://spreadsheets.google.com/spreadsheet/lv?key=0Aqln2akPWiMIdERkY3J2OXdOUVJDTkNSQ2ZsV3hoWVE&amp;f=true&amp;noheader=true&amp;gid=2" target="_blank" rel="external">Javascript Loaders Comparison</a>)</p>
+<ul>
+<li><a href="http://requirejs.org/" target="_blank" rel="external">require.js</a><ul>
+<li><a href="https://github.com/jrburke/almond" target="_blank" rel="external">almond</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/requirejs/cajon" target="_blank" rel="external">cajon</a></li>
+<li><a href="https://github.com/substack/node-browserify" target="_blank" rel="external">browserify</a></li>
+<li><a href="https://github.com/cujojs/curl" target="_blank" rel="external">curl</a></li>
+<li><a href="http://xcambar.github.io/shepherd-js/" target="_blank" rel="external">shepherd-js</a></li>
+<li><a href="https://github.com/umdjs/umd" target="_blank" rel="external">UMD (Universal Module Definition)</a><ul>
+<li><a href="https://gist.github.com/3880415" target="_blank" rel="external">UMD-inspired Module Boilerplate</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/linkedin/inject" target="_blank" rel="external">Inject</a></li>
+<li><a href="http://volojs.org/" target="_blank" rel="external">volo</a></li>
+<li><a href="http://controljs.org/" target="_blank" rel="external">controlJS</a></li>
+<li><a href="https://github.com/tail-f-systems/JAL" target="_blank" rel="external">JAL</a></li>
+<li><a href="http://yepnopejs.com/" target="_blank" rel="external">yepnope</a></li>
+<li><a href="https://github.com/amol-/axel" target="_blank" rel="external">AXEL</a></li>
+<li><a href="http://lmdjs.org/" target="_blank" rel="external">lmd</a></li>
+<li><a href="http://bevacqua.github.io/lazyjs/" target="_blank" rel="external">LazyJS</a></li>
+</ul>
+<hr>
+<p>######靜態網頁產生器 ([Static Site &amp; Blog Generators](<a href="http://garann.github.io/" target="_blank" rel="external">http://garann.github.io/</a></p>
+<ul>
+<li><a href="https://jekyllrb.com/" target="_blank" rel="external">jekyll</a><ul>
+<li><a href="http://jekyllcn.com/" target="_blank" rel="external">中文網站</a><br>-</li>
+</ul>
+</li>
+<li><a href="http://middlemanapp.com/" target="_blank" rel="external">Middleman</a></li>
+<li><p><a href="http://gohugo.io/" target="_blank" rel="external">Hugo</a></p>
+</li>
+<li><p><a href="http://hexo.io/" target="_blank" rel="external">Hexo</a></p>
+</li>
+<li><a href="http://getpelican.com/" target="_blank" rel="external">Pelican</a></li>
+<li><a href="http://metalsmith.io/" target="_blank" rel="external">Metalsmith</a></li>
+<li><a href="https://github.com/imathis/octopress" target="_blank" rel="external">Octopress</a><br>*</li>
+</ul>
+<hr>
+<p>######JavaScript 範本引擎 (<a href="http://garann.github.io/template-chooser" target="_blank" rel="external">template chooser</a>)</p>
+<ul>
+<li><a href="http://handlebarsjs.com/" target="_blank" rel="external">handlebars</a></li>
+<li><a href="http://beebole.com/pure/" target="_blank" rel="external">pure</a></li>
+<li><a href="http://akdubya.github.io/dustjs/" target="_blank" rel="external">dust</a></li>
+<li><a href="http://leonidas.github.io/transparency/" target="_blank" rel="external">transparency</a></li>
+<li><a href="https://github.com/flatiron/plates" target="_blank" rel="external">plates</a></li>
+<li><a href="http://mustache.github.com/" target="_blank" rel="external">mustache</a><ul>
+<li><a href="http://twitter.github.io/hogan.js/" target="_blank" rel="external">hogan.js</a></li>
+</ul>
+</li>
+<li><a href="http://icanhazjs.com/" target="_blank" rel="external">icanhaz</a></li>
+<li><a href="http://olado.github.io/doT/" target="_blank" rel="external">doT.js</a></li>
+<li><a href="http://underscorejs.org/#template" target="_blank" rel="external">underscore</a></li>
+<li><a href="https://github.com/idottv/Mold" target="_blank" rel="external">mold</a></li>
+<li><a href="http://paularmstrong.github.io/swig/" target="_blank" rel="external">Swig</a></li>
+</ul>
+<hr>
+<p>######UI Widgets (<a href="http://uiwidgets.t7interactive.com/" target="_blank" rel="external">comparison</a>)</p>
+<ul>
+<li><a href="http://chico-ui.com.ar/" target="_blank" rel="external">chico-ui</a></li>
+<li><a href="http://closure-library.googlecode.com/svn/trunk/closure/goog/demos/index.html" target="_blank" rel="external">google closure</a></li>
+<li><a href="http://dhtmlx.com/" target="_blank" rel="external">DHTMLX</a></li>
+<li><a href="http://www.sencha.com/products/extjs/examples/" target="_blank" rel="external">extJS</a></li>
+<li><a href="http://www.kendoui.com/" target="_blank" rel="external">kendoUI</a></li>
+<li><a href="http://qooxdoo.org/" target="_blank" rel="external">qooxdoo</a></li>
+<li><a href="http://twitter.github.com/bootstrap/javascript.html" target="_blank" rel="external">bootstrap components &amp; javascript</a><ul>
+<li><a href="http://exacttarget.github.com/fuelux/" target="_blank" rel="external">Fuel UX</a></li>
+</ul>
+</li>
+<li><a href="http://wijmo.com/" target="_blank" rel="external">wijmo</a></li>
+<li><a href="http://yuilibrary.com/yui/docs/guides/" target="_blank" rel="external">YUI3 Widgets</a></li>
+<li><a href="http://dojotoolkit.org/reference-guide/1.8/dijit/index.html" target="_blank" rel="external">dojo dijits</a></li>
+<li><a href="http://jqueryui.com/" target="_blank" rel="external">jQuery UI</a></li>
+<li><a href="http://zinoui.com/" target="_blank" rel="external">Zino UI</a></li>
+<li><a href="http://jquery-jkit.com/" target="_blank" rel="external">JKIT</a></li>
+<li><a href="http://w2ui.com/web/" target="_blank" rel="external">w2ui</a></li>
+<li><a href="http://basisjs.com/" target="_blank" rel="external">basis.js</a></li>
+<li><a href="http://docs.webix.com/" target="_blank" rel="external">webix</a></li>
+</ul>
+<hr>
+<p>######測試執行工具 (Test Runners)</p>
+<ul>
+<li><a href="https://github.com/airportyh/testem" target="_blank" rel="external">testem</a></li>
+<li><a href="http://karma-runner.github.io/0.8/index.html" target="_blank" rel="external">Karma</a></li>
+<li><a href="http://theintern.io/" target="_blank" rel="external">intern</a></li>
+</ul>
+<hr>
+<p>######使用者自動化測試工具 (User Automated Testing)</p>
+<ul>
+<li><a href="http://casperjs.org/" target="_blank" rel="external">casperJS</a></li>
+</ul>
+<hr>
+<p>######測試框架 (Testing Frameworks)</p>
+<ul>
+<li><a href="http://visionmedia.github.com/mocha/" target="_blank" rel="external">mocha</a></li>
+<li><a href="http://busterjs.org/" target="_blank" rel="external">buster.js</a></li>
+<li><a href="http://qunitjs.com/" target="_blank" rel="external">qunit</a></li>
+<li><a href="http://pivotal.github.com/jasmine/" target="_blank" rel="external">jasmine</a></li>
+<li><a href="https://github.com/LearnBoost/expect.js" target="_blank" rel="external">expect.js</a></li>
+</ul>
+<hr>
+<p>######其他測試函式庫 (Assertion Libraries)</p>
+<ul>
+<li><a href="http://chaijs.com/" target="_blank" rel="external">chai</a></li>
+<li><a href="https://github.com/visionmedia/should.js" target="_blank" rel="external">should</a></li>
+<li><a href="https://github.com/LearnBoost/expect.js" target="_blank" rel="external">expect</a></li>
+</ul>
+<hr>
+<p>######遠端 DOM 與 JS 測試工具</p>
+<ul>
+<li><a href="http://www.browserstack.com/" target="_blank" rel="external">browserstack</a></li>
+<li><a href="https://browserling.com/" target="_blank" rel="external">browserling/testling</a></li>
+<li><a href="http://seleniumhq.org/" target="_blank" rel="external">selenium</a></li>
+<li><a href="http://code.google.com/p/js-test-driver/" target="_blank" rel="external">JS test driver</a></li>
+</ul>
+<hr>
+<p>######JavaScript 效能檢測工具 (JS Performance Testing)</p>
+<ul>
+<li><a href="http://benchmarkjs.com/" target="_blank" rel="external">benchmark.js</a></li>
+<li><a href="http://jsperf.com/" target="_blank" rel="external">jsPerf — JavaScript performance playground</a></li>
+</ul>
+<hr>
+<p>######JavaScript 自動化文件工具 (JS Auto Documentation Tools)</p>
+<ul>
+<li><a href="http://yui.github.com/yuidoc/" target="_blank" rel="external">yuiDoc</a></li>
+<li><a href="http://jashkenas.github.com/docco/" target="_blank" rel="external">docco</a><ul>
+<li><a href="https://github.com/mbrevoort/docco-husky" target="_blank" rel="external">docco-husky</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/senchalabs/jsduck" target="_blank" rel="external">jsduck</a></li>
+<li><a href="https://github.com/jsdoc3/jsdoc" target="_blank" rel="external">jsdoc</a></li>
+<li><a href="https://github.com/p120ph37/node-jsdoc-toolkit" target="_blank" rel="external">node-jsdoc-toolkit</a></li>
+<li><a href="https://github.com/visionmedia/dox" target="_blank" rel="external">dox</a><ul>
+<li><a href="https://github.com/cbou/markdox" target="_blank" rel="external">markdox</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<p>######CSS 自動化文件工具 (CSS Auto Documentation Tools)</p>
+<ul>
+<li><a href="https://github.com/kneath/kss" target="_blank" rel="external">kss</a></li>
+<li><a href="http://jacobrask.github.com/styledocco/" target="_blank" rel="external">styledocco/</a></li>
+</ul>
+<hr>
+<p>######JavaScript 程式碼品質驗證工具 (JS Quality Validators)</p>
+<ul>
+<li><a href="http://www.jslint.com/" target="_blank" rel="external">jslint</a></li>
+<li><a href="http://www.jshint.com/" target="_blank" rel="external">jshint</a></li>
+<li><a href="http://jslinterrors.com/" target="_blank" rel="external">JSLint Error Explanations</a></li>
+<li><a href="http://jscomplexity.org/" target="_blank" rel="external">jscomplexity</a></li>
+</ul>
+<hr>
+<p>######CSS 品質驗證工具 (CSS Quality Validators)</p>
+<ul>
+<li><a href="http://csslint.net/" target="_blank" rel="external">csslint</a></li>
+<li><a href="http://twitter.github.com/recess" target="_blank" rel="external">recess</a></li>
+</ul>
+<hr>
+<p>######HTML 品質驗證工具 (HTML Quality Validators)</p>
+<ul>
+<li><a href="https://github.com/philipwalton/html-inspector" target="_blank" rel="external">html-inspector</a></li>
+</ul>
+<hr>
+<p>######JavaScript 最佳化/最小化/壓縮工具 (JS Optimizer/Minification/Compression Tools)</p>
+<ul>
+<li><a href="https://developers.google.com/closure/compiler/" target="_blank" rel="external">google closure compiler</a></li>
+<li><a href="https://github.com/mishoo/UglifyJS" target="_blank" rel="external">uglifyJS</a></li>
+<li><a href="http://esprima.org/index.html" target="_blank" rel="external">Esprima</a></li>
+</ul>
+<hr>
+<p>######CSS 最佳化/最小化/壓縮工具 (CSS Optimizer/Minification/Compression Tools)</p>
+<ul>
+<li><a href="https://github.com/yui/ycssmin" target="_blank" rel="external">ycssmin</a></li>
+<li><a href="http://css.github.io/csso/" target="_blank" rel="external">CSSO</a></li>
+</ul>
+<hr>
+<p>######CSS 前置處理器 (Languages Compiling to CSS)</p>
+<ul>
+<li><a href="http://sass-lang.com/" target="_blank" rel="external"><strong>Sass</strong></a><ul>
+<li><a href="http://compass-style.org" target="_blank" rel="external">compass</a></li>
+<li><a href="https://github.com/csswizardry/inuit.css" target="_blank" rel="external">inuit.css</a></li>
+<li><a href="https://github.com/thoughtbot/bourbon" target="_blank" rel="external">Bourbon</a>: Mixins library for Sass</li>
+<li><a href="https://github.com/thoughtbot/neat" target="_blank" rel="external">Neat</a>: Semantic CSS grid framework</li>
+</ul>
+</li>
+<li><a href="http://learnboost.github.com/stylus/" target="_blank" rel="external">stylus</a><ul>
+<li><a href="http://visionmedia.github.com/nib/" target="_blank" rel="external">nib</a></li>
+</ul>
+</li>
+<li><a href="http://lesscss.org" target="_blank" rel="external">less</a><ul>
+<li><a href="http://lesselements.com/" target="_blank" rel="external">LESS Elements</a>: Mixins library for LESS</li>
+<li><a href="http://semantic.gs/" target="_blank" rel="external">Semantic.gs</a>: Semantic CSS grid system</li>
+</ul>
+</li>
+</ul>
+<p>######JavaScript 前置處理器 (Languages Compiling to JS) (<a href="http://altjs.org/" target="_blank" rel="external">http://altjs.org/</a>)</p>
+<ul>
+<li><a href="http://coffeescript.org/" target="_blank" rel="external">coffeeScript</a></li>
+<li><a href="http://www.dartlang.org/" target="_blank" rel="external">dart</a></li>
+<li><a href="https://github.com/pufuwozu/roy" target="_blank" rel="external">roy</a></li>
+<li><a href="https://github.com/clojure/clojurescript" target="_blank" rel="external">ClojureScript</a></li>
+<li><a href="http://www.typescriptlang.org/" target="_blank" rel="external">TypeScript</a></li>
+</ul>
+<hr>
+<p>######HTML 前置處理器 (Languages Compiling to HTML)</p>
+<ul>
+<li><a href="http://jade-lang.com/" target="_blank" rel="external"><strong>jade</strong></a><ul>
+<li>test</li>
+</ul>
+</li>
+<li><a href="https://github.com/haml/haml" target="_blank" rel="external">haml</a></li>
+<li><a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="external">markdown</a></li>
+<li><a href="http://slim-lang.com/" target="_blank" rel="external">slim</a></li>
+</ul>
+<hr>
+<p>######純前端應用程式框架 (Front End Application Structure) (somewhat backend agnostic)</p>
+<ul>
+<li><a href="http://backbonejs.org/" target="_blank" rel="external">backbone</a><ul>
+<li><a href="http://marionettejs.com" target="_blank" rel="external">marionette</a></li>
+<li><a href="http://chaplinjs.github.com/" target="_blank" rel="external">chaplin</a></li>
+<li><a href="http://addyosmani.github.com/aura/" target="_blank" rel="external">aura</a></li>
+<li><a href="http://walmartlabs.github.com/thorax/" target="_blank" rel="external">thorax</a></li>
+</ul>
+</li>
+<li><a href="http://emberjs.com/" target="_blank" rel="external">ember</a></li>
+<li><a href="http://knockoutjs.com/" target="_blank" rel="external">knockout</a></li>
+<li><a href="http://canjs.us/" target="_blank" rel="external">canjs</a></li>
+<li><a href="http://spinejs.com/" target="_blank" rel="external">spine</a></li>
+<li><a href="http://angularjs.org/" target="_blank" rel="external">angularJS</a><ul>
+<li><a href="http://ngmodules.org/" target="_blank" rel="external">ngmodules.org</a></li>
+</ul>
+</li>
+<li><a href="http://peter.michaux.ca/maria/" target="_blank" rel="external">maria</a></li>
+<li><a href="http://sparkyjs.com/" target="_blank" rel="external">sparky.js</a></li>
+<li><a href="http://hood.ie/" target="_blank" rel="external">hoodie</a></li>
+<li><a href="http://tylerbuchea.com/projects/lure/#/" target="_blank" rel="external">lure.js</a></li>
+</ul>
+<hr>
+<p>######包含後端技術的前端應用程式框架 (Front End Application Structure) (with backend opinions)</p>
+<ul>
+<li><a href="http://derbyjs.com/" target="_blank" rel="external">derby</a> (requires NodeJS)</li>
+<li><a href="http://flatironjs.org/" target="_blank" rel="external">flatiron</a> (requires NodeJS)</li>
+<li><a href="http://batmanjs.org/" target="_blank" rel="external">batman.js</a> (requires NodeJS)</li>
+<li><a href="http://javascriptmvc.com/" target="_blank" rel="external">jsMVC</a> (requires Java)</li>
+<li><a href="http://montagejs.org/" target="_blank" rel="external">montage</a> (requires NodeJS)</li>
+</ul>
+<hr>
+<p>######整合式應用程式框架 (Full Stack Application Structure/Frameworks)</p>
+<ul>
+<li><a href="http://towerjs.org/" target="_blank" rel="external">tower.js</a> (requires NodeJS)</li>
+<li><a href="http://www.wakanda.org/" target="_blank" rel="external">wakanda</a></li>
+<li><a href="http://www.meteor.com/" target="_blank" rel="external">meteor</a></li>
+</ul>
+<hr>
+<p>######前端 JavaScript 框架 (Frontend JavaScript Frameworks) (aka Kitchen Sink Solutions, tools below provide a mixture of the things above)</p>
+<ul>
+<li><a href="http://yuilibrary.com/projects/yui3/" target="_blank" rel="external">YUI3</a></li>
+<li><a href="http://dojotoolkit.org/extjs" target="_blank" rel="external">dojo</a></li>
+<li><a href="http://www.sencha.com/products/extjs/" target="_blank" rel="external">extJS</a></li>
+<li><a href="http://qooxdoo.org/" target="_blank" rel="external">qooxdoo</a></li>
+<li><a href="https://developers.google.com/closure/" target="_blank" rel="external">google closure</a></li>
+</ul>
+<p>##參考資料/教學手冊/相容性套件/程式產生器等相關工具 (Reference/Guide/Polyfill/Generator Tools)</p>
+<p>######文件翻閱工具</p>
+<ul>
+<li><a href="http://devdocs.io/" target="_blank" rel="external">DevDocs — API Documentation Reader</a></li>
+<li><a href="http://dochub.io/" target="_blank" rel="external">DocHub | Instant Documentation Search</a></li>
+</ul>
+<hr>
+<p>######瀏覽器相容性工具/文件 (Browser X Supports X)</p>
+<ul>
+<li><a href="http://caniuse.com/" target="_blank" rel="external">http://caniuse.com/</a></li>
+<li><a href="http://html5please.com/" target="_blank" rel="external">http://html5please.com/</a></li>
+<li><a href="http://html5readiness.com/" target="_blank" rel="external">http://html5readiness.com/</a></li>
+<li><a href="http://html5test.com/index.html" target="_blank" rel="external">html5test.com</a></li>
+<li><a href="http://www.browsersupport.net/" target="_blank" rel="external">http://www.browsersupport.net/</a></li>
+<li><a href="http://css3test.com/" target="_blank" rel="external">http://css3test.com/</a></li>
+<li><a href="http://www.browserscope.org/" target="_blank" rel="external">Browserscope</a></li>
+<li><a href="http://www.findmebyip.com/litmus/" target="_blank" rel="external">HTML5 &amp; CSS3 Support</a></li>
+<li><a href="http://css4-selectors.com/selectors/" target="_blank" rel="external">CSS4-Selectors</a></li>
+<li><a href="http://robertnyman.com/html5/" target="_blank" rel="external">HTML5 - Information and samples for HTML5 and related APIs</a></li>
+<li><a href="http://robertnyman.com/css3/" target="_blank" rel="external">CSS3 - Information and samples</a></li>
+<li><a href="http://robertnyman.com/javascript/" target="_blank" rel="external">JavaScript tests &amp; Compatibility tables</a></li>
+<li><a href="http://www.crossbrowserbook.com/Knowledge" target="_blank" rel="external">Cross Browser Handbook Knowledgebase</a></li>
+<li><a href="http://compatibility.shwups-cms.ch/de/home/?" target="_blank" rel="external">JS-Compatibility-Table</a></li>
+<li><a href="http://www.webbrowsercompatibility.com/" target="_blank" rel="external">webbrowsercompatibility</a></li>
+</ul>
+<hr>
+<p>######HTML 語言參考 &amp; 相容性工具 (HTML Language References &amp; Polyfills)</p>
+<ul>
+<li><a href="http://developers.whatwg.org/" target="_blank" rel="external">HTML5 A technical specification for Web developers</a></li>
+<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/" target="_blank" rel="external">HTML Living Standard</a></li>
+<li><a href="http://www.w3.org/TR/html5/" target="_blank" rel="external">HTML5 A vocabulary and associated APIs for HTML and XHTML</a></li>
+<li><a href="http://dev.w3.org/html5/html-author/" target="_blank" rel="external">HTML 5 Reference A Web Developer’s Guide to HTML 5</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/HTML" target="_blank" rel="external">HyperText Markup Language (HTML), from Mozilla</a></li>
+<li><a href="http://dev.w3.org/html5/html4-differences/" target="_blank" rel="external">HTML5 differences from HTML4</a></li>
+<li><a href="https://github.com/aFarkas/html5shiv" target="_blank" rel="external">html5shiv</a></li>
+<li><a href="https://github.com/bestiejs/html5.js" target="_blank" rel="external">html5.js</a></li>
+</ul>
+<hr>
+<p>######HTML5 相關規格/參考資料與相容性套件 (HTML5 &amp; Friends Specs/Ref &amp; Polyfills)</p>
+<ul>
+<li><a href="http://www.webbrowsercompatibility.com/" target="_blank" rel="external">webbrowsercompatibility.com</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5" target="_blank" rel="external">HTML5 &amp; Friends, from Mozilla</a></li>
+<li><a href="http://www.html5rocks.com/en/" target="_blank" rel="external">html5rocks</a></li>
+<li><a href="https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills" target="_blank" rel="external">HTML5 Cross Browser Polyfills</a></li>
+<li><a href="http://robertnyman.com/html5/" target="_blank" rel="external">HTML5 - Information and samples for HTML5 and related APIs</a></li>
+<li><a href="http://html5demos.com/" target="_blank" rel="external">HTML 5 Demos and Examples</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/SVG" target="_blank" rel="external">SVG</a><ul>
+<li><a href="http://svg-edit.googlecode.com/svn-history/r1771/trunk/editor/svg-editor.html" target="_blank" rel="external">SVG-edit browser editor</a></li>
+<li><a href="http://d3js.org/" target="_blank" rel="external">D3.js</a></li>
+<li><a href="http://raphaeljs.com/" target="_blank" rel="external">raphaeljs</a></li>
+<li><a href="http://bonsaijs.org/" target="_blank" rel="external">bonsaijs.org</a></li>
+</ul>
+</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/HTML/Canvas" target="_blank" rel="external">Canvas</a><ul>
+<li><a href="http://paperjs.org/" target="_blank" rel="external">paper.js</a></li>
+<li><a href="http://fabricjs.com/" target="_blank" rel="external">fabric.js</a></li>
+<li><a href="http://kineticjs.com/" target="_blank" rel="external">kineticjs</a></li>
+</ul>
+</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/WebGL" target="_blank" rel="external">webGL</a><ul>
+<li><a href="http://mrdoob.github.com/three.js/" target="_blank" rel="external">three.js</a></li>
+<li><a href="https://github.com/xtk/X#readme" target="_blank" rel="external">The X Toolkit</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<p>######DOM 相關規格/參考資料與相容性套件 (DOM Specs/Ref &amp; Polyfills)</p>
+<ul>
+<li><a href="http://dom.spec.whatwg.org/" target="_blank" rel="external">DOM Living Standard</a></li>
+<li><a href="http://domparsing.spec.whatwg.org/" target="_blank" rel="external">DOM Parsing and Serialization Living Standard</a></li>
+<li><a href="http://www.w3.org/TR/dom/" target="_blank" rel="external">DOM4</a></li>
+<li><a href="http://www.w3.org/DOM/DOMTR" target="_blank" rel="external">Document Object Model (DOM) Technical Reports, from W3C</a></li>
+<li><a href="http://msdn.microsoft.com/en-us/library/ie/hh772384\(v=vs.85\" target="_blank" rel="external">Document Object Model, from Microsoft</a>.aspx)</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/DOM" target="_blank" rel="external">Document Object Model, from Mozilla</a></li>
+<li><a href="http://www.quirksmode.org/dom/events/index.html" target="_blank" rel="external">Event compatibility tables</a></li>
+</ul>
+<hr>
+<p>######CSS 相關規格/參考資料與相容性套件 (CSS Specs/Ref &amp; Polyfills)</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/CSS" target="_blank" rel="external">CSS, from Mozilla</a></li>
+<li><a href="http://www.w3.org/Style/CSS/current-work" target="_blank" rel="external">CSS SPEC-I-FI-CA-TIONS, from W3C</a></li>
+<li><a href="http://cssvalues.com/" target="_blank" rel="external">http://cssvalues.com/</a></li>
+<li><a href="http://www.quirksmode.org/css/contents.html" target="_blank" rel="external">CSS contents and browser compatibility</a></li>
+<li><a href="http://msdn.microsoft.com/en-us/library/cc351024\(VS.85\" target="_blank" rel="external">CSS Compatibility and Internet Explorer</a>.aspx)</li>
+<li><a href="https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills" target="_blank" rel="external">HTML5 Cross Browser Polyfills (look for CSS)</a></li>
+<li><a href="http://css4-selectors.com/selectors/" target="_blank" rel="external">CSS Selectors from CSS4 till CSS1</a></li>
+<li><a href="http://css3clickchart.com/" target="_blank" rel="external">css3clickchart.com</a></li>
+<li><a href="http://www.quirksmode.org/css/selectors/" target="_blank" rel="external">CSS selectors</a></li>
+</ul>
+<hr>
+<p>######CSS 產生器 (CSS Generators)</p>
+<ul>
+<li><a href="http://www.patternify.com/" target="_blank" rel="external">patternify</a></li>
+<li><a href="http://www.colorzilla.com/gradient-editor/" target="_blank" rel="external">Ultimate CSS Gradient Generator</a></li>
+<li><a href="http://patternizer.com/" target="_blank" rel="external">patternizer</a></li>
+<li><a href="http://css3please.com/" target="_blank" rel="external">css3please.com</a></li>
+<li><a href="http://cssarrowplease.com/" target="_blank" rel="external">cssarrowplease.com</a></li>
+<li><a href="http://demo.agektmr.com/flexbox/" target="_blank" rel="external">CSS Flexbox Please</a></li>
+<li><a href="http://www.css3.me/" target="_blank" rel="external">CSS3 GENERATOR</a></li>
+<li><a href="http://css3generator.com/" target="_blank" rel="external">css3generator.com</a></li>
+<li><a href="http://www.css3maker.com/" target="_blank" rel="external">css3maker.com</a></li>
+<li><a href="http://westciv.com/tools/index.html" target="_blank" rel="external">CSS3 Sandbox</a></li>
+<li><a href="http://coderwall.com/p/xrxaxa" target="_blank" rel="external">The Shapes of Css</a></li>
+<li><a href="http://www.cssmatic.com/" target="_blank" rel="external">CSS matic</a></li>
+</ul>
+<hr>
+<p>######CSS 編寫風格與慣例指引 (CSS Style/Conventions Guides)</p>
+<ul>
+<li><a href="https://github.com/kneath/kss#readme" target="_blank" rel="external">kss</a></li>
+<li><a href="http://smacss.com/" target="_blank" rel="external">SMACSS</a></li>
+<li><a href="http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml#Declaration_order" target="_blank" rel="external">Google HTML/CSS Style Guide</a></li>
+<li><a href="https://github.com/necolas/idiomatic-css" target="_blank" rel="external">idiomatic-css</a></li>
+<li><a href="http://oocss.org/" target="_blank" rel="external">Object-Oriented CSS</a></li>
+<li><a href="http://dotorgstyleguide.wordpress.com/" target="_blank" rel="external">WordPress.org UI Style Guide</a></li>
+<li><a href="http://www.starbucks.com/static/reference/styleguide/" target="_blank" rel="external">Starbucks Style Guide</a></li>
+<li><a href="https://github.com/styleguide/css" target="_blank" rel="external">Github CSS styleguide</a></li>
+<li><a href="https://github.com/csswizardry/CSS-Guidelines" target="_blank" rel="external">General CSS notes, advice and guidelines</a></li>
+</ul>
+<hr>
+<p>######JavaScript ES5 相關規格/參考資料與相容性套件 (JavaScript ES5 Specs/Ref &amp; Polyfills)</p>
+<ul>
+<li><a href="http://dmitrysoshnikov.com/ecmascript/es5-chapter-0-introduction/" target="_blank" rel="external">ECMA-262-5 in detail</a></li>
+<li><a href="http://ecma-international.org/ecma-262/5.1/" target="_blank" rel="external">ECMAScript Language Specification</a></li>
+<li><a href="http://es5.github.com/" target="_blank" rel="external">Annotated ECMAScript 5.1</a></li>
+<li><a href="http://kangax.github.com/es5-compat-table/" target="_blank" rel="external">ECMAScript 5 compatibility table</a></li>
+<li><a href="http://msdn.microsoft.com/en-us/library/ff960769.aspx" target="_blank" rel="external">Internet Explorer ECMA-262 ECMAScript Language Specification (Fifth Edition) Standards Support Document</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/JavaScript/Reference" target="_blank" rel="external">JavaScript Reference, from Mozilla</a></li>
+<li><a href="https://gist.github.com/1073547" target="_blank" rel="external">The sample usage of ECMA 5 Features Implemented in V8</a></li>
+<li><a href="http://killdream.github.com/blog/2011/10/understanding-javascript-oop/" target="_blank" rel="external">Understanding JavaScript OOP</a></li>
+<li><a href="http://mathias.html5.org/specs/javascript/" target="_blank" rel="external">JavaScript, aka. Web ECMAScript Living Standard</a></li>
+<li><a href="https://github.com/kriskowal/es5-shim/" target="_blank" rel="external">es5-shim</a></li>
+<li><a href="https://github.com/cujojs/poly" target="_blank" rel="external">poly</a></li>
+<li><a href="http://augmentjs.com/" target="_blank" rel="external">Augment.js</a></li>
+</ul>
+<hr>
+<p>######JavaScript ES6 相關規格/參考資料與相容性套件 (JavaScript ES6 Specs/Ref &amp; Polyfills)</p>
+<ul>
+<li><a href="https://gist.github.com/1665192" target="_blank" rel="external">ES6 what can be shimmed and what not</a></li>
+<li><a href="http://kangax.github.com/es5-compat-table/es6/" target="_blank" rel="external">ECMAScript 6 compatibility table</a></li>
+<li><a href="http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts" target="_blank" rel="external">Draft Specification for ES.next (Ecma-262 Edition 6)</a></li>
+<li><a href="https://github.com/paulmillr/es6-shim" target="_blank" rel="external">es6-shim</a></li>
+<li><a href="http://people.mozilla.org/~jorendorff/es6-draft.html" target="_blank" rel="external">ECMA-262 6th Edition/Draft</a></li>
+</ul>
+<hr>
+<p>######JavaScript 編寫風格與慣例指引 (JavaScript Style/Conventions Guides)</p>
+<ul>
+<li><a href="http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml" target="_blank" rel="external">Google JavaScript Style Guide</a></li>
+<li><a href="http://nodeguide.com/style.html" target="_blank" rel="external">Felix’s Node.js Style Guide</a></li>
+<li><a href="https://github.com/rwldrn/idiomatic.js" target="_blank" rel="external">idiomatic.js</a></li>
+<li><a href="http://javascript.crockford.com/code.html" target="_blank" rel="external">Code Conventions for the JavaScript Programming Language</a></li>
+<li><a href="http://jsbeautifier.org/" target="_blank" rel="external">jsbeautifier</a></li>
+<li><a href="https://github.com/airbnb/javascript" target="_blank" rel="external">Airbnb JavaScript Style Guide</a></li>
+</ul>
+<hr>
+<p>######JSON 產生器</p>
+<ul>
+<li><a href="http://www.json-generator.com/" target="_blank" rel="external">JSON Generator &ndash; tool for generating random JSON data</a></li>
+</ul>
+<hr>
+<p>######一般前端開發實務與開發習慣 (General Front-end Practices/Conventions)</p>
+<ul>
+<li><a href="http://isobar-idev.github.com/code-standards/" target="_blank" rel="external">isobar</a></li>
+<li><a href="http://www.yellowshoe.com.au/standards/" target="_blank" rel="external">Being A Web Developer</a></li>
+<li><a href="http://taitems.github.com/Front-End-Development-Guidelines/" target="_blank" rel="external">Front End Dev Guidelines</a></li>
+<li><a href="https://github.com/mdo/code-guide" target="_blank" rel="external">HTML and CSS code guide</a></li>
+</ul>
+<p>##效能調校</p>
+<p>######相關工具</p>
+<ul>
+<li><a href="http://www.charlesproxy.com/" target="_blank" rel="external">Charles</a></li>
+<li><a href="http://www.webpagetest.org/" target="_blank" rel="external">webpagetest</a></li>
+<li><a href="https://developers.google.com/speed/pagespeed/" target="_blank" rel="external">PageSpeed Insights Browser Extensions</a></li>
+<li><a href="https://developers.google.com/chrome-developer-tools/docs/network" target="_blank" rel="external">Chrome Developer Tools: Network Panel</a></li>
+<li><a href="https://developers.google.com/chrome-developer-tools/docs/timeline" target="_blank" rel="external">Chrome Developer Tools: Timeline Panel</a></li>
+<li><a href="https://developers.google.com/chrome-developer-tools/docs/profiles" target="_blank" rel="external">Chrome Developer Tools: Profiles Panel</a></li>
+<li><a href="http://mir.aculo.us/dom-monster/" target="_blank" rel="external">DOM Monster</a></li>
+<li><a href="http://imageoptim.com/" target="_blank" rel="external">ImageOptim</a></li>
+</ul>
+<p>######準則與實務</p>
+<ul>
+<li><a href="https://developers.google.com/speed/docs/best-practices/rules_intro" target="_blank" rel="external">Web Performance Best Practices</a></li>
+<li><a href="http://developer.yahoo.com/performance/rules.html" target="_blank" rel="external">Best Practices for Speeding Up Your Web Site</a></li>
+<li><a href="http://stevesouders.com/hpws/" target="_blank" rel="external">High Performance Web Sites - 14 Rules for Faster-Loading Web Sites</a></li>
+<li><a href="http://stevesouders.com/efws/" target="_blank" rel="external">Even Faster Web Sites</a></li>
+</ul>
+<p>##各式線上編輯器/開發工具 (<a href="http://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop" title="Read–eval–print loop" target="_blank" rel="external">REPL</a>)</p>
+<p>######JS REPL</p>
+<ul>
+<li><a href="http://repl.it/" target="_blank" rel="external">repl.it</a></li>
+<li><a href="http://jsconsole.com/" target="_blank" rel="external">jsconsole.com</a></li>
+<li><a href="http://codeboot.org/" target="_blank" rel="external">codeboot.org</a></li>
+<li><a href="http://benvie.github.com/continuum/" target="_blank" rel="external">continuum</a></li>
+</ul>
+<p>######JavaScript 線上編輯器 (JS focused editors)</p>
+<ul>
+<li><a href="http://jsfiddle.net/" target="_blank" rel="external">jsfiddle</a></li>
+<li><a href="http://jsbin.com/" target="_blank" rel="external">jsbin</a></li>
+</ul>
+<p>######正規表示式編輯器 (Regular Expression editors)</p>
+<ul>
+<li><a href="http://scriptular.com/" target="_blank" rel="external">Scriptular</a></li>
+<li><a href="http://gskinner.com/RegExr/" target="_blank" rel="external">regexr</a></li>
+<li><a href="http://refiddle.com/" target="_blank" rel="external">refiddle</a></li>
+<li><a href="http://www.regexplanet.com/" target="_blank" rel="external">RegexPlanet</a></li>
+<li><a href="http://www.debuggex.com/" target="_blank" rel="external">Debuggex: The online visual regex tester. JavaScript, Python, and PCRE.</a></li>
+</ul>
+<p>######HTML/CSS 編輯器</p>
+<ul>
+<li><a href="http://dabblet.com/" target="_blank" rel="external">dabblet</a></li>
+<li><a href="http://cssdesk.com/" target="_blank" rel="external">cssdesk</a></li>
+</ul>
+<p>######HTML/CSS/JS 編輯器</p>
+<ul>
+<li><a href="https://tinker.io/" target="_blank" rel="external">tinker.io</a></li>
+<li><a href="http://tinkerbin.com/" target="_blank" rel="external">tinkerbin</a></li>
+<li><a href="https://github.com/filearts/plunker" target="_blank" rel="external">Plunker</a></li>
+<li><a href="http://cssdeck.com/" target="_blank" rel="external">cssdeck</a></li>
+<li><a href="http://codepen.io/" target="_blank" rel="external">codepen</a></li>
+</ul>
+<p>######執行/測試代碼工具 (Execute/Test live code)</p>
+<ul>
+<li><a href="http://runnable.com/" target="_blank" rel="external">runnable</a></li>
+</ul>
+<p>######雲端開發工具 (Browser IDE’s)</p>
+<ul>
+<li><a href="https://koding.com/" target="_blank" rel="external">koding</a></li>
+<li><a href="https://c9.io/" target="_blank" rel="external">cloud9 IDE</a></li>
+<li><a href="https://www.action.io" target="_blank" rel="external">action.io</a></li>
+</ul>
+<p>######JSON 編輯器</p>
+<ul>
+<li><a href="http://jsoneditoronline.org/" target="_blank" rel="external">jsoneditoronline.org</a></li>
+<li><a href="http://json.bubblemix.net/" target="_blank" rel="external">JSON Tinker</a></li>
+<li><a href="http://jsonmate.com/" target="_blank" rel="external">JSONmat</a></li>
+</ul>
+<p>##瀏覽器安全性 (Browser Security)</p>
+<ul>
+<li><a href="http://code.google.com/p/browsersec/wiki/Main" target="_blank" rel="external">Browser Security Handbook</a></li>
+</ul>
+<p>##各式 CSS/HTML Hacks 整理 (Browser Hacks)</p>
+<ul>
+<li><a href="http://www.browserhacks.com/" target="_blank" rel="external">browserhacks.com</a></li>
+</ul>
+<p>##給前端開發人員的後端服務 (Backend services for frontend developers)</p>
+<ul>
+<li><a href="https://www.firebase.com/index.html" target="_blank" rel="external">firebase</a></li>
+<li><a href="http://pusher.com/" target="_blank" rel="external">pusher</a></li>
+<li><a href="http://jaystack.com/" target="_blank" rel="external">jaystack</a></li>
+<li><a href="https://www.parse.com" target="_blank" rel="external">parse</a></li>
+<li><a href="https://singly.com/" target="_blank" rel="external">singly</a></li>
+<li><a href="https://www.cloudcms.com/" target="_blank" rel="external">cloud CMS</a></li>
+<li><a href="http://www.kinvey.com/" target="_blank" rel="external">kinvey</a></li>
+<li><a href="http://www.stackmob.com/" target="_blank" rel="external">stackmob</a></li>
+<li><a href="https://cloudmine.me/" target="_blank" rel="external">cloudmine</a></li>
+<li><a href="http://www.kumulos.com/" target="_blank" rel="external">kumulos</a></li>
+<li><a href="http://deployd.com/" target="_blank" rel="external">deployd</a></li>
+<li><a href="https://backlift.com/index.html" target="_blank" rel="external">backlift.com</a></li>
+<li><a href="http://hull.io/" target="_blank" rel="external">hull.io</a></li>
+<li><a href="http://stormpath.com/" target="_blank" rel="external">stormpath.com</a></li>
+</ul>
+<p>##API 開發與測試工具</p>
+<ul>
+<li><a href="http://apiary.io/" target="_blank" rel="external">apiary</a></li>
+<li><a href="http://www.mocky.io/" target="_blank" rel="external">mocky.io</a></li>
+<li><a href="http://www.filltext.com/" target="_blank" rel="external">FillText.com</a></li>
+</ul>
+<p>##JSON 資料操作/查詢工具 (JSON Query Tools)</p>
+<ul>
+<li><a href="http://www.taffydb.com/" target="_blank" rel="external">TaffyDB</a></li>
+<li><a href="http://linqjs.codeplex.com/" target="_blank" rel="external">linq.js</a></li>
+<li><a href="http://jsonselect.org/" target="_blank" rel="external">json:select()</a></li>
+<li><a href="http://www.jsoniq.org/" target="_blank" rel="external">JSONiq</a></li>
+<li><a href="https://github.com/mmckegg/json-query" target="_blank" rel="external">json-query</a></li>
+<li><a href="http://danski.github.io/spahql/" target="_blank" rel="external">SpahQL</a></li>
+</ul>
+<p>##格式化工具</p>
+<ul>
+<li><a href="http://jsbeautifier.org/" target="_blank" rel="external">Online JavaScript beautifier</a></li>
+<li><a href="http://html.fwpolice.com/css/" target="_blank" rel="external">CSS Beautifier</a></li>
+</ul>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="http://yoursite.com/2016/09/07/day-1/" data-id="cisso13fy0000asnicb2l7eq6" class="article-share-link"><i class="fa fa-share"></i>Compartir</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="http://yoursite.com/2016/09/07/day-1/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://yoursite.com/2016/09/07/day-1/">Comentarios</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
+    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2016/09/07/hello-world/">Hello World</a>
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2016/09/07/hello-world/">
+            <time datetime="2016-09-07T04:49:09.837Z" itemprop="datePublished">2016-09-07</time>
+        </a>
+    </div>
+
+
+                        
+                        
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="hellllllo"><a href="#hellllllo" class="headerlink" title="hellllllo"></a>hellllllo</h2><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="http://yoursite.com/2016/09/07/hello-world/" data-id="cisso13gi0001asnikzpgc6a2" class="article-share-link"><i class="fa fa-share"></i>Compartir</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="http://yoursite.com/2016/09/07/hello-world/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://yoursite.com/2016/09/07/hello-world/">Comentarios</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+</section>
+            
+                <aside id="sidebar">
+   
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">Recientes</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/09/07/day-1/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2016/09/07/day-1/" class="title">day-1</a></p>
+                            <p class="item-date"><time datetime="2016-09-07T07:22:42.000Z" itemprop="datePublished">2016-09-07</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/09/07/hello-world/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2016/09/07/hello-world/" class="title">Hello World</a></p>
+                            <p class="item-date"><time datetime="2016-09-07T04:49:09.837Z" itemprop="datePublished">2016-09-07</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+    
+        
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">Archivos</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">September 2016</a><span class="archive-list-count">2</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    
+        
+    
+        
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">Links</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="http://hexo.io">Hexo</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+            
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            &copy; 2016 John Doe<br>
+            Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>
+        </div>
+    </div>
+</footer>
+        
+    
+    <script>
+    var disqus_config = function () {
+        
+        this.page.identifier = 'undefined';
+    };
+    (function() { 
+        var d = document, s = d.createElement('script');  
+        s.src = '//' + 'hexo-theme-icarus' + '.disqus.com/count.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+
+
+    
+        <script src="/vendor/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/vendor/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/vendor/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/vendor/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/vendor/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/vendor/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/vendor/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/vendor/lightgallery/js/lg-share.min.js"></script>
+        <script src="/vendor/lightgallery/js/lg-video.min.js"></script>
+    
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
+</body>
+</html>
